@@ -3,8 +3,7 @@ layout: default
 ---
 
 {% for vendor in site.data.vendors %}
-  <h2>{{ vendor.name }} <small>({{ vendor.location }})</small></h2>
-  
+  <h2>{{ vendor.name }}</h2>  
   <table>
     <thead>
       <tr>
@@ -16,13 +15,14 @@ layout: default
       </tr>
     </thead>
     <tbody>
-      {% for item in vendor.items %}
-        <tr class="{% if item.god_roll %}god-roll{% endif %}">
+      {% for entry in vendor.inventory %}
+        {% assign item = site.data.items[entry.item_id] %}
+        <tr class="{% if entry.god_roll %}god-roll{% endif %}">
           <td><strong>{{ item.name }}</strong></td>
           <td>{{ item.type }}</td>
           <td>{{ item.score }}</td>
-          <td>{{ item.talents | join: ", " }}{{ item.attributes }}</td>
-          <td>{{ item.price }}</td>
+          <td>{{ item.talents | join: ", " }}{{ entry.attributes }}</td>
+          <td>{{ entry.price }}</td>
         </tr>
       {% endfor %}
     </tbody>
