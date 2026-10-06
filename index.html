@@ -18,6 +18,7 @@ layout: default
       {% for entry in vendor.inventory %}
         {% assign item = site.data.items[entry.item_id] %}
         <tr class="{% if entry.god_roll %}god-roll{% endif %}">
+          <td><strong>{{ entry.item_id }}</strong></td>
           <td><strong>{{ item.name }}</strong></td>
           <td>{{ item.type }}</td>
           <td>{{ item.score }}</td>
