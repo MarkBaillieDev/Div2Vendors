@@ -1,0 +1,14 @@
+- name: "Base of Operations - Gear Vendor"
+  location: "Hub"
+  items:
+    - name: "Lightweight M4"
+      type: "Assault Rifle"
+      score: 256
+      price: "1,158 Birdie Bucks"
+      talents: ["Responsive", "Unforgiving", "Competent"]
+      god_roll: true
+    - name: "Strikers Harness"
+      type: "Chest"
+      score: 256
+      price: "420,000 Credits"
+      attributes: "+1,240 Firearms, +16,500 Health"
