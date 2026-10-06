@@ -1,140 +1,90 @@
 - name: "Washington : White House"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Clan Vendor"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Theater Settlement"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Castle Settlement"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Campus Settlement"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Dark Zone South Vendor"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Dark Zone South West"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Dark Zone South East"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Cassie"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Benitez"
   items:
-    - name: "Lightweight M4"
-      type: "Assault Rifle"
-      score: 256
+    - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
-      talents: ["Responsive", "Unforgiving", "Competent"]
       god_roll: true
-    - name: "Strikers Harness"
-      type: "Chest"
-      score: 256
+    - item_id: "Custom_M44"
       price: "420,000 Credits"
       attributes: "+1,240 Firearms, +16,500 Health"
 
