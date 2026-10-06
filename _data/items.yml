@@ -1,0 +1,11 @@
+Lightweight_M4:
+  name: "Lightweight M4"
+  type: "Assault Rifle"
+  score: 256
+  talents: ["Responsive", "Unforgiving", "Competent"]
+
+Custom_M44:
+  name: "Custom M44"
+  type: "Marksman Rifle"
+  score: 256
+  talents: ["Prepared", "Elevated"]
