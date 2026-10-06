@@ -1,0 +1,26 @@
+{% for vendor in site.data.vendors %}
+  <h2>{{ vendor.name }} <small>({{ vendor.location }})</small></h2>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Type</th>
+        <th>Score</th>
+        <th>Details</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in vendor.items %}
+        <tr class="{% if item.god_roll %}god-roll{% endif %}">
+          <td><strong>{{ item.name }}</strong></td>
+          <td>{{ item.type }}</td>
+          <td>{{ item.score }}</td>
+          <td>{{ item.talents | join: ", " }}{{ item.attributes }}</td>
+          <td>{{ item.price }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
