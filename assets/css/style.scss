@@ -15,8 +15,81 @@ div.wrapper {
     max-width:none;
     margin-top:10px;
 
-    table {
+    article {
       margin-bottom:50px;
+      margin-right:25px;
+      width:300px;
+      display:inline-block;
+
+      table {
+        width:100%;
+        border:1px solid #000;
+        border-collapse:collapse;
+
+        th,td {
+          border:1px solid #000;
+          padding:5px 10px;
+        }
+
+        th {
+          background-color:#000;
+          color:#fff;
+          text-align:center;
+          font-size:1.2em;
+
+          &.Prototype {
+            background-color:rgb(74, 7, 77);
+            color:#ffffff;
+          }
+
+          &.Exotic {
+            background-color:rgb(131, 9, 9);
+            color:#ffffff;
+          }
+
+          &.GearSet {
+            background-color:#17C884;
+            color:#ffffff;
+          }
+
+          &.HighEndNamed {
+            background-color:#FFAF10;
+            color:#f3c910;
+          }
+
+          &.HighEnd {
+            background-color:#FFAF10;
+            color:#ffffff;
+          }
+
+          &.Superior {
+            background-color:#B14298;
+            color:#ffffff;
+          }
+
+          &.Specialized {
+            background-color:#5080FF;
+            color:#ffffff;
+          }
+
+          &.Standard {
+            background-color:#73C32C;
+            color:#ffffff;
+          }
+        }
+
+        &.WEAPON {
+          tr:nth-child(3) td {
+            width:33%;
+          }
+        }
+
+        &.GEAR {
+          tr:nth-child(3) td {
+            width:50%;
+          }
+        }
+      }
     }
   }
 }

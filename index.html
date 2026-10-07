@@ -9,7 +9,7 @@ layout: default
     {% assign item = site.data.items[entry.item_id] %}
     <article>
       <table class="{{ item.class }}">
-        <tr><th>{{ item.name }}</th></tr>
+        <tr><th class="{{ item.rarity }}"">{{ item.name }}</th></tr>
         {% case item.class %}
           {% when 'WEAPON' %}
             <tr><td>{{ item.manufacturer }}</td></tr>
@@ -30,3 +30,6 @@ layout: default
       </table>
     </article>
   {% endfor %}
+
+  <hr/>
+{% endfor %}
