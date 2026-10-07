@@ -12,20 +12,45 @@ layout: default
         <tr><th class="{{ item.rarity }}"">{{ item.name }}</th></tr>
         {% case item.class %}
           {% when 'WEAPON' %}
-            <tr><td>{{ item.manufacturer }}</td></tr>
             <tr><td>{{ item.damage }}</td><td>{{ item.rpm }}</td><td>{{ item.mag }}</td></tr>
-            <tr><td>{{ item.attr1 }}</td></tr>
-            <tr><td>{{ item.attr2 }}{% if item.attr3 %}<br/>{{ item.attr3 }}{% endif %}</td></tr>
-            <tr><td>{{ item.talent }}</td></tr>
+            <tr><td>
+              <span class="god_{{ entry.attr1[2] | default: item.attr1[2] }}">{{ entry.attr1[0] | default: item.attr1[0] }} {{ entry.attr1[1] | default: item.attr1[1] }}</span>
+            </td></tr>
+            <tr><td>
+              <span class="god_{{ entry.attr2[2] | default: item.attr2[2] }}">{{ entry.attr2[0] | default: item.attr2[0] }} {{ entry.attr2[1] | default: item.attr2[1] }}</span>
+              {% if entry.attr3 %}
+              <br/><span class="god_{{ entry.attr3[2] | default: item.attr3[2] }}">{{ entry.attr3[0] }} {{ entry.attr3[1] }}</span>
+              {% elsif item.attr3 %}
+              <br/><span class="god_{{ entry.attr3[2] | default: item.attr3[2] }}">{{ item.attr3[0] }} {{ item.attr3[1] }}</span>
+              {% endif %}
+            </td></tr>
+            {% if entry.talent %}
+              <tr><td>{{ entry.talent }}</td></tr>
+            {% elsif item.talent %}
+              <tr><td>{{ item.talent }}</td></tr>
+            {% endif %}
           {% when 'GEAR' %}
             <tr><td>{{ item.manufacturer }}</td></tr>
             <tr><td>{{ item.type }}</td><td>{{ item.armor }}</td></tr>
-            <tr><td>{{ item.attr1 }}</td></tr>
-            <tr><td>{{ item.attr2 }}{% if item.attr3 %}<br/>{{ item.attr3 }}{% endif %}</td></tr>
-            <tr><td>{{ item.talent }}</td></tr>
+            <tr><td>
+              <span class="god_{{ entry.attr1[2] | default: item.attr1[2] }}">{{ entry.attr1[0] | default: item.attr1[0] }} {{ entry.attr1[1] | default: item.attr1[1] }}</span>
+            </td></tr>
+            <tr><td>
+              <span class="god_{{ entry.attr2[2] | default: item.attr2[2] }}">{{ entry.attr2[0] | default: item.attr2[0] }} {{ entry.attr2[1] | default: item.attr2[1] }}</span>
+              {% if entry.attr3 %}
+              <br/><span class="god_{{ entry.attr3[2] | default: item.attr3[2] }}">{{ entry.attr3[0] }} {{ entry.attr3[1] }}</span>
+              {% elsif item.attr3 %}
+              <br/><span class="god_{{ entry.attr3[2] | default: item.attr3[2] }}">{{ item.attr3[0] }} {{ item.attr3[1] }}</span>
+              {% endif %}
+            </td></tr>
+            {% if entry.talent %}
+              <tr><td>{{ entry.talent }}</td></tr>
+            {% elsif item.talent %}
+              <tr><td>{{ item.talent }}</td></tr>
+            {% endif %}
           {% when 'MOD' %}
             <tr><td>{{ item.type }}</td></tr>
-            <tr><td>{{ item.attr1 }}</td></tr>
+            <tr><td>{{ item.attr }}</td></tr>
         {% endcase %}
       </table>
     </article>

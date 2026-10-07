@@ -1,30 +1,202 @@
 # ----------------------------------------------------------------- WEAPONS
 
-Lightweight_M4:
-  name: "Lightweight M4"
+ACR:
+  name: "ACR"
   class: "WEAPON"
-  rarity: "Exotic"
+  rarity: "HighEnd"
   type: "Assault Rifle"
-  score: 256
-  talents: ["Responsive", "Unforgiving", "Competent"]
+  damage: 58,896
+  rpm: 650
+  mag: 30
 
-Custom_M44:
-  name: "Custom M44"
+ACR_E:
+  name: "ACR"
   class: "WEAPON"
-  rarity: "GearSet"
-  type: "Marksman Rifle"
-  score: 256
-  talents: ["Prepared", "Elevated"]
+  rarity: "HighEnd"
+  type: "Assault Rifle"
+  damage: 58,896
+  rpm: 650
+  mag: 30
 
 # ----------------------------------------------------------------- GEAR
+
+Biohazard_Mask:
+  name: "Biohazard Mask"
+  class: "GEAR"
+  rarity: "GearSet"
+  manufacturer: "Eclipse Protocol"
+  type: "Mask"
+  armor: "80k"
+  attr1: ["yellow", 1 Skill Tier", false]
+  attr2: ["yellow", 10.6% Skill Haste", false]
+
+Chargers_Kneepads:
+  name: "Charger's Kneepads"
+  class: "GEAR"
+  rarity: "GearSet"
+  manufacturer: "Breaking Point"
+  type: "Kneepads"
+  armor: "99k"
+  attr1: ["yellow", 10.9% Weapon Damage", false]
+  attr2: ["yellow", 6.5% Headshot Damage", false]
+
+Diamondback_Gloves:
+  name: "Diamondback Gloves"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Gila Guard"
+  type: "Gloves"
+  armor: "80k"
+  attr1: ["yellow", 117,983 Armor", false]
+  attr2: ["yellow", 11% Skill Haste", false]
+  attr3: ["yellow", 7% Skill Damage", false]
+
+Escorter_Combat_Harness:
+  name: "Escorter Combat Harness"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Sokolov Concern"
+  type: "Chest"
+  armor: "158k"
+  attr1: ["yellow", 10.7% Weapon Damage", false]
+  attr2: ["yellow", 4.5% Critical Hit Chance", false]
+  attr3: ["yellow", 16.1% Repair Skills", false]
+  talent: "Entrench"
+
+Fodral_Holster:
+  name: "Fodral Holster"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Fenris Group AB"
+  type: "Holster"
+  armor: "112k"
+  attr1: ["yellow", 11.7% Weapon Damage", false]
+  attr2: ["yellow", 10% Critical Hit Damage", false]
+  attr3: ["yellow", 7.1% Skill Damage", false]
+
+Gila_Inventory_System:
+  name: "Gila Inventory System"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Gila Guard"
+  type: "Backpack"
+  armor: "131k"
+  attr1: ["yellow", 112,237 Armor", false]
+  attr2: ["yellow", 8.9% Hazard Protection", false]
+  attr3: ["yellow", 15.4% Repair Skills", false]
+  talent: "Calculated"
+
+Hotshot_Vest:
+  name: "Hotshot Vest"
+  class: "GEAR"
+  rarity: "GearSet"
+  manufacturer: "Eclipse Protocol"
+  type: "Chest"
+  armor: "158k"
+  attr1: ["yellow", 13.4% Weapon Damage", false]
+  attr2: ["yellow", 6% Weapon Handling", false]
+  talent: "Daring"
+
+Lightweight_Ballistic_Vest:
+  name: "Lightweight Ballistic Vest"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Sokolov Concern"
+  type: "Chest"
+  armor: "158k"
+  attr1: ["yellow", 11.1% Weapon Damage", false]
+  attr2: ["yellow", 9.8% Critical Hit Damage", false]
+  attr3: ["yellow", 8% Explosive Resistance", false]
+  talent: "Explosive Delivery"
+
+Liquid_Engineer:
+  name: "Liquid Engineer"
+  class: "GEAR"
+  rarity: "HighEndNamed"
+  manufacturer: "Belstone Armory"
+  type: "Backpack"
+  armor: "131k"
+  attr1: ["yellow", 126,432 Armor", false]
+  attr2: ["yellow", 4.6% Critical Hit Chance", false]
+  attr3: ["yellow", 10.3% Critical Hit Damage", false]
+  talent: "Perfect Bloodsucker"
+
+Revamped_Vest:
+  name: "Revamped Vest"
+  class: "GEAR"
+  rarity: "GearSet"
+  manufacturer: "Refactor"
+  type: "Chest"
+  armor: "158k"
+  attr1: ["yellow", 1 Skill Tier", false]
+  attr2: ["yellow", 5% Critical Hit Chance", false]
+  talent: "Increased Interest"
 
 Shadow_Boxing_Gloves:
   name: "Shadow Boxing Gloves"
   class: "GEAR"
-  rarity: "HighEndNamed"
+  rarity: "GearSet"
+  manufacturer: "Core Strength"
   type: "Gloves"
-  score: 256
-  talents: ["Prepared", "Elevated"]
+  armor: "80k"
+  attr1: ["yellow", 122,226 Armor", false]
+  attr2: ["yellow", 7.6% Headshot Damage", false]
+
+Tania_Silent_Vest:
+  name: "Tania Silent Vest"
+  class: "GEAR"
+  rarity: "GearSet"
+  manufacturer: "Aces & Eights"
+  type: "Chest"
+  armor: "158k"
+  attr1: ["yellow", 10.2% Weapon Damage", false]
+  attr2: ["yellow", 4.3% Critical Hit Chance", false]
+  talent: "No Limit"
+
+Trapezius_Go_Bag:
+  name: "Trapezius Go-bag"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Wyvern Wear"
+  type: "Backpack"
+  armor: "131k"
+  attr1: ["yellow", 1 Skill Tier", false]
+  attr2: ["yellow", 16% Repair Skills", false]
+  attr3: ["yellow", 15,493 Health", false]
+  talent: "Leadership"
+
+Unfazed_Mask:
+  name: "Unfazed Mask"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Unit Alloys"
+  type: "Mask"
+  armor: "80k"
+  attr1: ["yellow", 11.8% Weapon Damage", false]
+  attr2: ["yellow", 4.9% Critical Hit Chance", false]
+  attr3: ["yellow", 17.1% Repair Skills", false]
+
+Wear_Anywhere_Protectors:
+  name: "Wear-anywhere Protectors"
+  class: "GEAR"
+  rarity: "HighEnd"
+  manufacturer: "Empress International"
+  type: "Kneepads"
+  armor: "99k"
+  attr1: ["yellow", 1 Skill Tier", false]
+  attr2: ["yellow", 7.6% Skill Damage", false]
+  attr3: ["yellow", 8% Status Effects", false]
+
+Ziba_Low_Profile_Pack:
+  name: "Ziba Low Profile Pack"
+  class: "GEAR"
+  rarity: "GearSet"
+  manufacturer: "Aces & Eights"
+  type: "Backpack"
+  armor: "131k"
+  attr1: ["yellow", 10.9% Weapon Damage", false]
+  attr2: ["yellow", 10.2% Skill Haste", false]
+  talent: "Ace in the Sleeve"
 
 # ----------------------------------------------------------------- MODS
 

@@ -1,91 +1,98 @@
 - name: "Washington : White House"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
+    - item_id: "ACR"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+    - item_id: "Biohazard_Mask"
       price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+      attr1: ["yellow", "1 Skill Tier", true]
+      attr2: ["yellow", "10.6% Skill Haste", false]
+    - item_id: "Alignment_Valve"
+      price: "20,000 Credits"
+      attr: "5.9% Skill Haste"
+
 - name: "Washington : Clan Vendor"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Theater Settlement"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Castle Settlement"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Campus Settlement"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Dark Zone South Vendor"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Dark Zone South West"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Dark Zone South East"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Cassie"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
-      
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
+
 - name: "Washington : Benitez"
   inventory:
-    - item_id: "Lightweight_M4"
-      price: "1,158 Birdie Bucks"
-      god_roll: true
-    - item_id: "Custom_M44"
-      price: "420,000 Credits"
-      attributes: "+1,240 Firearms, +16,500 Health"
+    - item_id: "ACR_E"
+      price: "1,500 Credits"
+      attr1: ["red", "15% Assault Rifle Damage", true]
+      attr2: ["red", "10% Health", false]
+      attr3: ["red", "3.7% Rate of Fire", false]
+      talent: "Strained"
 
 
