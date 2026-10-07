@@ -3,29 +3,30 @@ layout: default
 ---
 
 {% for vendor in site.data.vendors %}
-  <h2>{{ vendor.name }}</h2>  
-  <table>
-    <thead>
-      <tr>
-        <th>Item</th>
-        <th>Type</th>
-        <th>Score</th>
-        <th>Details</th>
-        <th>Price</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for entry in vendor.inventory %}
-        {% assign item = site.data.items[entry.item_id] %}
-        <tr class="{% if entry.god_roll %}god-roll{% endif %}">
-          <td><strong>{{ entry.item_id }}</strong></td>
-          <td><strong>{{ item.name }}</strong></td>
-          <td>{{ item.type }}</td>
-          <td>{{ item.score }}</td>
-          <td>{{ item.talents | join: ", " }}{{ entry.attributes }}</td>
-          <td>{{ entry.price }}</td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-{% endfor %}
+  <h2>{{ vendor.name }}</h2>
+
+  {% for entry in vendor.inventory %}
+    {% assign item = site.data.items[entry.item_id] %}
+    <article>
+      <table class="{% item.class %}">
+        <tr><th>{{ item.name }}</th></tr>
+        {% case item.class %}
+          {% when 'WEAPON' %}
+            <tr><td>{{ item.manufacturer }}</td></tr>
+            <tr><td>{{ item.damage }}</td><td>{{ item.rpm }}</td><td>{{ item.mag }}</td></tr>
+            <tr><td>{{ item.attr1 }}</td></tr>
+            <tr><td>{{ item.attr2 }}{% if item.attr3 %}<br/>{{ item.attr3 }}{% endif %}</td></tr>
+            <tr><td>{{ item.talent }}</td></tr>
+          {% when 'GEAR' %}
+            <tr><td>{{ item.manufacturer }}</td></tr>
+            <tr><td>{{ item.type }}</td><td>{{ item.armor }}</td></tr>
+            <tr><td>{{ item.attr1 }}</td></tr>
+            <tr><td>{{ item.attr2 }}{% if item.attr3 %}<br/>{{ item.attr3 }}{% endif %}</td></tr>
+            <tr><td>{{ item.talent }}</td></tr>
+          {% when 'MOD' %}
+            <tr><td>{{ item.type }}</td></tr>
+            <tr><td>{{ item.attr1 }}</td></tr>
+        {% endcase %}
+      </table>
+    </article>
+  {% endfor %}

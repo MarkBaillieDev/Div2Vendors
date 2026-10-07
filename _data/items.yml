@@ -1,11 +1,30 @@
 Lightweight_M4:
+  class: "WEAPON"
   name: "Lightweight M4"
   type: "Assault Rifle"
   score: 256
   talents: ["Responsive", "Unforgiving", "Competent"]
 
 Custom_M44:
+  class: "WEAPON"
   name: "Custom M44"
   type: "Marksman Rifle"
   score: 256
   talents: ["Prepared", "Elevated"]
+
+Shadow_Boxing_Gloves:
+  class: "GEAR"
+  name: "Shadow Boxing Gloves"
+  type: "Gloves"
+  score: 256
+  talents: ["Prepared", "Elevated"]
+
+Alignment_Valve:
+  class: "MOD"
+  name: "Alignment Valve"
+  type: "Firefly"
+
+Defensive_Protocol_Stamina:
+  class: "MOD"
+  name: "Defensive Protocol: Stamina"
+  type: "Defensive"
