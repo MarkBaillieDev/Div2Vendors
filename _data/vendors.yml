@@ -1,18 +1,60 @@
 - name: "Washington : White House"
   inventory:
-    - item_id: "ACR"
-      price: "1,500 Credits"
-      attr1: ["red", "15% Assault Rifle Damage", true]
-      attr2: ["red", "10% Health", false]
-      attr3: ["red", "3.7% Rate of Fire", false]
+    - item_id: "Battery_Pack"
+      price: "15,528 Credits"
+      attr2: ["yellow", "7% Skill Damage", false]
+      attr3: ["yellow", "8.3% Status Effects", false]
       talent: "Strained"
-    - item_id: "Biohazard_Mask"
-      price: "420,000 Credits"
-      attr1: ["yellow", "1 Skill Tier", true]
-      attr2: ["yellow", "10.6% Skill Haste", false]
-    - item_id: "Alignment_Valve"
-      price: "20,000 Credits"
-      attr: "5.9% Skill Haste"
+
+    - item_id: "Police_T821"
+      price: "8,484 Credits"
+      attr1: ["red", "10.9% SMG Damage", false]
+      attr2: ["red", "15% Critical Hit Chance", false]
+      attr3: ["red", "7.5% Health Damage", false]
+      talent: "Steady Handed"
+
+    - item_id: "FAL"
+      price: "8,478 Credits"
+      attr1: ["red", "11.7% Assault Rifle Damage", false]
+      attr2: ["red", "16% Health Damage", false]
+      attr3: ["red", "7.3% Reload Speed", false]
+      talent: "Killer"
+
+    - item_id: "First_Wave_PF45"
+      price: "5,644 Credits"
+      attr1: ["red", "6.5% Pistol Damage", false]
+      attr2: ["red", "10% Headshot Damage", true]
+      talent: "Lucky Shot"
+
+    - item_id: "Chemar_Backpack"
+      price: "5,644 Credits"
+      attr1: ["yellow", "112,237 Armor", false]
+      attr2: ["yellow", "8.9% Hazard Protection", false]
+      attr3: ["yellow", "15.4% Repair Skills", false]
+      talent: "Safeguard"
+
+    - item_id: "Harnesk_Armor"
+      price: "6,220 Credits"
+      attr1: ["red", "6.5% Weapon Damage", false]
+      attr2: ["blue", "8.5% Hazard Protection", false]
+      attr3: ["blue", "16,153 Health", false]
+      talent: "Empathic Resolve"
+
+    - item_id: "Offensive_Protocol_Critical"
+      price: "4,523 Credits"
+      attr: "7.5% Headshot Damage"
+
+    - item_id: "Additional_Ordnance"
+      price: "4,523 Credits"
+      attr: "5% Damage Reduction"
+
+    - item_id: "Spare_Parts"
+      price: "4,522 Credits"
+      attr: "6% Duration"
+
+    - item_id: "Improved_Sticky_Launcher"
+      price: "4,521 Credits"
+      attr: "6.4% Duration"
 
 - name: "Washington : Clan Vendor"
   inventory:
