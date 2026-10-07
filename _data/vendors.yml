@@ -1,5 +1,5 @@
 - name: "Washington : White House"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -8,7 +8,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Clan Vendor"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -17,7 +17,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Theater Settlement"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -26,7 +26,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Castle Settlement"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -35,7 +35,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Campus Settlement"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -44,7 +44,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Dark Zone South Vendor"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -53,7 +53,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Dark Zone South West"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -62,7 +62,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Dark Zone South East"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -71,7 +71,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Cassie"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
@@ -80,7 +80,7 @@
       attributes: "+1,240 Firearms, +16,500 Health"
       
 - name: "Washington : Benitez"
-  items:
+  inventory:
     - item_id: "Lightweight_M4"
       price: "1,158 Birdie Bucks"
       god_roll: true
