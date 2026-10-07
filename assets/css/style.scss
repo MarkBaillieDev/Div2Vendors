@@ -15,82 +15,96 @@ div.wrapper {
     max-width:none;
     margin-top:10px;
 
-    article {
-      margin-bottom:50px;
-      margin-right:25px;
-      width:300px;
-      display:inline-block;
+    articles {
 
-      table {
-        width:100%;
-        border:1px solid #414858;
-        border-collapse:collapse;
-        background-color:#2b303a;
+      article {
+        margin-bottom:50px;
+        margin-right:25px;
+        width:300px;
+        display:inline-block;
+        vertical-align: top;
 
-        th,td {
+        table {
+          width:100%;
           border:1px solid #414858;
-          padding:5px 10px;
-        }
+          border-collapse:collapse;
+          background-color:#2b303a;
 
-        th {
-          background-color:#000;
-          color:#fff;
-          text-align:center;
-          font-size:1.2em;
+          tr {
+            display: flex;
+            width: 100%;
 
-          &.Prototype {
-            background-color:rgb(74, 7, 77);
-            color:#ffffff;
+            th,td {
+              flex: 1;
+              min-width: 0;
+              box-sizing: border-box;
+              border:1px solid #414858;
+              padding:5px 10px;
+              text-align:center;
+            }
           }
 
-          &.Exotic {
-            background-color:rgb(131, 9, 9);
-            color:#ffffff;
+          th {
+            background-color:#000;
+            color:#fff;
+            text-align:center;
+            font-size:1.2em;
+
+            &.Prototype {
+              background-color:rgb(74, 7, 77);
+              color:#ffffff;
+            }
+
+            &.Exotic {
+              background-color:rgb(131, 9, 9);
+              color:#ffffff;
+            }
+
+            &.GearSet {
+              background-color:#17C884;
+              color:#ffffff;
+            }
+
+            &.HighEndNamed {
+              background-color:#FFAF10;
+              color:#fff900;
+            }
+
+            &.HighEnd {
+              background-color:#FFAF10;
+              color:#ffffff;
+            }
+
+            &.Superior {
+              background-color:#B14298;
+              color:#ffffff;
+            }
+
+            &.Specialized {
+              background-color:#5080FF;
+              color:#ffffff;
+            }
+
+            &.Standard {
+              background-color:#73C32C;
+              color:#ffffff;
+            }
           }
 
-          &.GearSet {
-            background-color:#17C884;
-            color:#ffffff;
+          &.WEAPON {
+            tr:nth-child(3) td {
+              width:33%;
+            }
           }
 
-          &.HighEndNamed {
-            background-color:#FFAF10;
-            color:#f3c910;
-          }
-
-          &.HighEnd {
-            background-color:#FFAF10;
-            color:#ffffff;
-          }
-
-          &.Superior {
-            background-color:#B14298;
-            color:#ffffff;
-          }
-
-          &.Specialized {
-            background-color:#5080FF;
-            color:#ffffff;
-          }
-
-          &.Standard {
-            background-color:#73C32C;
-            color:#ffffff;
-          }
-        }
-
-        &.WEAPON {
-          tr:nth-child(3) td {
-            width:33%;
-          }
-        }
-
-        &.GEAR {
-          tr:nth-child(3) td {
-            width:50%;
+          &.GEAR {
+            tr:nth-child(3) td {
+              width:50%;
+            }
           }
         }
       }
+
     }
   }
 }
