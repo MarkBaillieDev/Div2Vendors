@@ -14,7 +14,7 @@ layout: default
           {% case item.class %}
             {% when 'WEAPON' %}
               <tr><td>{{ item.type }}</td></tr>
-              <tr><td>{{ item.damage }}</td><td>{{ item.rpm }}</td><td>{{ item.mag }}</td></tr>
+              <tr><td><abbr>DMG</abbr>{{ item.damage }}</td><td><abbr>RPM</abbr>{{ item.rpm }}</td><td><abbr>MAG</abbr>{{ item.mag }}</td></tr>
               <tr><td>
                 <span class="god_{{ entry.attr1[2] | default: item.attr1[2] }}">{{ entry.attr1[0] | default: item.attr1[0] }} {{ entry.attr1[1] | default: item.attr1[1] }}</span>
               </td></tr>
@@ -33,7 +33,7 @@ layout: default
               {% endif %}
             {% when 'GEAR' %}
               <tr><td>{{ item.manufacturer }}</td></tr>
-              <tr><td>{{ item.type }}</td><td>{{ item.armor }}</td></tr>
+              <tr><td><abbr>Slot</abbr>{{ item.type }}</td><td><abbr>Armor</abbr>{{ item.armor }}</td></tr>
               <tr><td>
                 <span class="god_{{ entry.attr1[2] | default: item.attr1[2] }}">{{ entry.attr1[0] | default: item.attr1[0] }} {{ entry.attr1[1] | default: item.attr1[1] }}</span>
               </td></tr>

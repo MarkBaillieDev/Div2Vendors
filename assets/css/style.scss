@@ -15,6 +15,10 @@ div.wrapper {
     max-width:none;
     margin-top:10px;
 
+    h2 {
+      margin-bottom:1.25em;
+    }
+
     articles {
 
       article {
@@ -29,6 +33,7 @@ div.wrapper {
           border:1px solid #414858;
           border-collapse:collapse;
           background-color:#2b303a;
+          margin-bottom:0px;
 
           tr {
             display: flex;
@@ -41,6 +46,12 @@ div.wrapper {
               border:1px solid #414858;
               padding:5px 10px;
               text-align:center;
+
+              abbr {
+                display:block;
+                font-size:0.8em;
+                color: #010020;
+              }
             }
           }
 
