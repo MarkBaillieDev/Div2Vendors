@@ -15,8 +15,13 @@ div.wrapper {
     max-width:none;
     margin-top:10px;
 
+    div#title {
+      margin-top:0px;
+    }
+
     h2 {
-      margin-bottom:1.25em;
+      margin-top:50px;
+      margin-bottom:50px;
     }
 
     articles {
@@ -44,13 +49,17 @@ div.wrapper {
               min-width: 0;
               box-sizing: border-box;
               border:1px solid #414858;
-              padding:5px 10px;
+              padding:10px 10px;
               text-align:center;
 
               abbr {
                 display:block;
                 font-size:0.8em;
                 color: #010020;
+              }
+
+              span.clsAttr {
+                display:block;
               }
             }
           }
@@ -60,6 +69,7 @@ div.wrapper {
             color:#fff;
             text-align:center;
             font-size:1.2em;
+            padding:15px 10px;
 
             &.Prototype {
               background-color:rgb(74, 7, 77);
