@@ -17,14 +17,19 @@ div.wrapper {
 
     div#title {
       margin-top:0px;
+      margin-bottom:10px;
     }
 
     h2 {
       margin-top:50px;
       margin-bottom:50px;
+      text-align:center;
     }
 
     articles {
+      display:block;
+      width:100%;
+      text-align:center;
 
       article {
         margin-bottom:50px;
@@ -55,7 +60,7 @@ div.wrapper {
               abbr {
                 display:block;
                 font-size:0.8em;
-                color: #010020;
+                color: #b1aff3;
               }
 
               span.clsAttr {
